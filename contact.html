@@ -1,161 +1,149 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/user.png" type="image/x-icon" />
-    <title>▪ PORTFOLIO ▪</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles\styles.css" />
+    <title>Jay M. — Contact</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
-  <body class="bg-opal text-slate-900 gowun-dodum-regular">
-    <header class="flex justify-between px-20 py-10">
-      <h1 class="volkhov-bold text-5xl">
-        JAY <span class="text-white">M</span>.
-      </h1>
-      <ul class="flex gap-x-4">
-        <li
-          class="hover:tracking-wider hover:font-bold duration-300 cursor-pointer"
-        >
-          <a href="index.html">HELLO</a>
-        </li>
-        <li
-          class="hover:tracking-wider hover:font-bold duration-300 cursor-pointer"
-        >
-          <a href="projects.html">PROJECTS</a>
-        </li>
-        <li class="tracking-wider font-bold cursor-pointer">
-          <a href="contact.html">CONTACT</a>
-        </li>
-      </ul>
-    </header>
+  <body>
+    <div class="site-wrapper">
+      <!-- Header -->
+      <header class="site-header">
+        <a href="index.html" class="logo">Jay <span class="accent">M</span>.</a>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="index.html">Hello</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main class="px-20 mt-10">
-      <h1 class="text-6xl">GET IN TOUCH</h1>
-
-      <!-- CONTACT INFO -->
-      <section class="mt-10 text-lg text-slate-700">
-        <div class="flex items-center gap-x-2">
-          <svg
-            class="h-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12ZM16 12V13.5C16 14.8807 17.1193 16 18.5 16V16C19.8807 16 21 14.8807 21 13.5V12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21H16"
-              class="stroke-teal-600"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          <div>jaymarpabayo@gmail.com</div>
+      <!-- Contact -->
+      <section class="contact-section" style="padding-top: 100px">
+        <div class="reveal">
+          <span class="label">Get in Touch</span>
         </div>
 
-        <div class="flex items-center gap-x-2 mt-2">
-          <svg
-            class="h-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z"
-              class="stroke-teal-600"
-              stroke-width="2"
+        <h1 class="contact-heading reveal reveal-d1" style="margin-top: 20px">
+          Let's build something<br />
+          <em>together</em>.
+        </h1>
+
+        <!-- Contact Info -->
+        <div class="contact-list reveal reveal-d2">
+          <a href="mailto:jayisdev@atomicmail.io" class="contact-item">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="1.5"
               stroke-linecap="round"
               stroke-linejoin="round"
-            />
-          </svg>
-          <div>+639152796976</div>
+            >
+              <rect x="2" y="4" width="20" height="16" rx="2" />
+              <path d="M22 7l-8.97 5.7a1.94 1.94 0 01-2.06 0L2 7" />
+            </svg>
+            jayisdev@atomicmail.io
+          </a>
+
+          <div class="contact-item">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6A19.79 19.79 0 012.12 4.18 2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"
+              />
+            </svg>
+            +63 915 279 6976
+          </div>
+
+          <div class="contact-item">
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path
+                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
+              />
+              <circle cx="12" cy="9" r="2.5" />
+            </svg>
+            Philippines
+          </div>
         </div>
 
-        <div class="flex items-center gap-x-2 mt-2">
-          <svg
-            class="h-6"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
-              class="stroke-teal-600"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M8.0365 12.2563C7.44115 12.0248 7.14348 11.909 7.05658 11.7422C6.98124 11.5976 6.98114 11.4254 7.0563 11.2807C7.14301 11.1138 7.44055 10.9977 8.03562 10.7654L14.4234 8.27265C14.9605 8.06302 15.2291 7.9582 15.4008 8.01554C15.5498 8.06533 15.6668 8.1823 15.7166 8.33135C15.7739 8.50298 15.6691 8.77157 15.4595 9.30874L12.9667 15.6965C12.7345 16.2916 12.6184 16.5891 12.4514 16.6758C12.3068 16.751 12.1345 16.7509 11.9899 16.6755C11.8231 16.5886 11.7073 16.291 11.4758 15.6956L10.6404 13.5474C10.5934 13.4265 10.5699 13.3661 10.5336 13.3152C10.5014 13.2701 10.462 13.2307 10.4169 13.1985C10.366 13.1622 10.3056 13.1387 10.1847 13.0917L8.0365 12.2563Z"
-              class="stroke-teal-600"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-          <div>Philippines</div>
+        <!-- Social Links -->
+        <div class="social-section reveal reveal-d3">
+          <p class="label">Elsewhere</p>
+          <div class="social-row">
+            <a
+              href="https://github.com/JayMarPabayo"
+              target="_blank"
+              class="social-link"
+              >GitHub ↗</a
+            >
+            <a
+              href="https://www.linkedin.com/in/jay-mar-pabayo-072312104/"
+              target="_blank"
+              class="social-link"
+              >LinkedIn ↗</a
+            >
+            <a
+              href="https://www.upwork.com/freelancers/~0157212890211f4c38"
+              target="_blank"
+              class="social-link"
+              >Upwork ↗</a
+            >
+            <a
+              href="https://www.freelancer.com/u/greensparks17"
+              target="_blank"
+              class="social-link"
+              >Freelancer ↗</a
+            >
+            <a
+              href="https://www.onlinejobs.ph/jobseekers/info/2056208"
+              target="_blank"
+              class="social-link"
+              >OnlineJobs.ph ↗</a
+            >
+          </div>
         </div>
+
+        <!-- Footer -->
+        <footer class="site-footer reveal reveal-d4">
+          <span class="logo" style="font-size: 18px; color: rgba(0, 0, 0, 0.2)"
+            >Jay
+            <span class="accent" style="color: rgba(13, 148, 136, 0.3)">M</span
+            >.</span
+          >
+          <span class="footer-copy">&copy; 2025</span>
+        </footer>
       </section>
+    </div>
 
-      <!-- LINKS -->
-      <div class="flex items-end gap-x-4 mt-16">
-        <a
-          href="https://www.linkedin.com/in/jay-mar-pabayo-072312104/"
-          target="_blank"
-        >
-          <img
-            src="assets/linkedin.png"
-            alt="Linkedin"
-            title="Linkedin"
-            class="h-10 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-          />
-        </a>
-
-        <a
-          href="https://www.freelancer.com/u/greensparks17?frm=greensparks17&sb=t"
-          target="_blank"
-        >
-          <img
-            src="assets/freelancer.png"
-            alt="Freelancer"
-            title="Freelancer"
-            class="h-10 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-          />
-        </a>
-
-        <a
-          href="https://www.upwork.com/freelancers/~0157212890211f4c38?mp_source=share"
-          target="_blank"
-        >
-          <img
-            src="assets/upwork.png"
-            alt="Upwork"
-            title="Upwork"
-            class="h-10 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-          />
-        </a>
-
-        <a
-          href="https://www.onlinejobs.ph/jobseekers/info/2056208"
-          target="_blank"
-        >
-          <img
-            src="assets/onlinejobsph.png"
-            alt="OnlineJobs PH"
-            title="OnlineJobs PH"
-            class="h-10 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-          />
-        </a>
-
-        <a href="https://github.com/JayMarPabayo" target="_blank">
-          <img
-            src="assets/git.png"
-            alt="Github"
-            title="Github"
-            class="h-10 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-          />
-        </a>
-      </div>
-    </main>
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>

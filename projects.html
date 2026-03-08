@@ -4,456 +4,359 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/user.png" type="image/x-icon" />
-    <title>▪ PORTFOLIO ▪</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles\styles.css" />
+    <title>Jay M. — Projects</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
-  <body class="bg-opal text-slate-900 gowun-dodum-regular">
-    <header class="flex justify-between px-20 py-10">
-      <h1 class="volkhov-bold text-5xl">
-        JAY <span class="text-white">M</span>.
-      </h1>
-      <ul class="flex gap-x-4">
-        <li
-          class="hover:tracking-wider hover:font-bold duration-300 cursor-pointer"
-        >
-          <a href="index.html">HELLO</a>
-        </li>
-        <li class="tracking-wider font-bold cursor-pointer">
-          <a href="projects.html">PROJECTS</a>
-        </li>
-        <!-- <li
-          class="hover:tracking-wider hover:font-bold duration-300 cursor-pointer"
-        >
-          <a href="contact.html">CONTACT</a>
-        </li> -->
-      </ul>
-    </header>
+  <body>
+    <div class="site-wrapper">
+      <!-- Header -->
+      <header class="site-header">
+        <a href="index.html" class="logo">Jay <span class="accent">M</span>.</a>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="index.html">Hello</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-    <main class="px-20 mt-10 mb-10">
-      <h3 class="text-lg">Web Projects</h3>
-
-      <div class="bg-white/80 rounded-md p-2 mt-2 flex gap-x-2">
-        <!-- <img src="assets/fidms/services.jpg" class="w-[36rem]" /> -->
-        <video autoplay loop muted playsinline class="w-[36rem] object-cover">
-          <source src="assets/videos/wadoru.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <article>
-          <h3 class="font-semibold">Wādoru</h3>
-          <p class="text-sm mt-2 text-slate-600">
-            This was my first React project, created in 2023 while I was
-            learning the framework. It's an anime guessing game inspired by the
-            NBA Poeltl game. The game fetches an anime title from the
-            MyAnimeList (MAL) free API, which users try to guess. I used Framer
-            Motion to add subtle visual animations, and Firebase as the database
-            to ensure that users around the world are guessing the same anime
-            title while avoiding repetition.
-          </p>
-          <div class="mt-2 flex items-end gap-x-4">
-            <img
-              src="assets/react.png"
-              alt="React JS"
-              title="React JS"
-              class="h-7 opacity-80"
-            />
-            <img
-              src="assets/motion.png"
-              alt="Framer motion"
-              title="Framer motion"
-              class="h-7 opacity-80"
-            />
-            <img
-              src="assets/firebase.png"
-              alt="Firebase"
-              title="Firebase"
-              class="h-8 opacity-70"
-            />
-            <img
-              src="assets/tailwind.png"
-              alt="Tailwind CSS"
-              title="Tailwind CSS"
-              class="h-5 opacity-70"
-            />
-          </div>
-          <div class="flex items-center gap-x-2 mt-10 text-sky-700">
-            <img
-              src="assets/web.png"
-              alt="Web Link"
-              title="Web Link"
-              class="h-5 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-            />
-            <a
-              href="https://anime-wadoru.web.app"
-              target="_blank"
-              class="underline"
-              >https://anime-wadoru.web.app</a
-            >
-          </div>
-        </article>
+      <!-- Section Header -->
+      <div style="padding-top: 80px">
+        <div class="section-header reveal">
+          <h1 class="section-heading">Selected Work</h1>
+          <span class="section-count">6 projects</span>
+        </div>
       </div>
 
-      <div class="bg-white/80 rounded-md p-2 mt-2 flex gap-x-2">
-        <!-- <img src="assets/fidms/services.jpg" class="w-[36rem]" /> -->
-        <video autoplay loop muted playsinline class="w-[36rem] object-cover">
-          <source src="assets/videos/pms.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <article>
-          <h3 class="font-semibold">Public Market Stall Renting System</h3>
-          <p class="text-sm mt-2 text-slate-600">
-            I developed this MERN stack project in 2024 as part of a client's
-            thesis project, tailored specifically for our local public market.
-            The system streamlines the management of stalls, vendors, and rental
-            payments, allowing administrators to efficiently handle vendor
-            profiles, assign stalls, and track rentals. For on-site payment
-            collection, I created a simple React Native app that enables
-            collectors to record transactions and print receipts instantly using
-            a mobile printer.
-          </p>
-          <div class="mt-2 flex items-end gap-x-4">
-            <img
-              src="assets/react.png"
-              alt="React JS"
-              title="React JS"
-              class="h-7 opacity-80"
-            />
-            <img
-              src="assets/mongodb.png"
-              alt="Mongo DB"
-              title="Mongo DB"
-              class="h-10 opacity-80"
-            />
-            <img
-              src="assets/express-js.png"
-              alt="Express JS"
-              title="Express JS"
-              class="h-6 opacity-90"
-            />
-            <img
-              src="assets/node-js.png"
-              alt="Node JS"
-              title="Node JS"
-              class="h-7 opacity-80"
-            />
-            <img
-              src="assets/tailwind.png"
-              alt="Tailwind CSS"
-              title="Tailwind CSS"
-              class="h-5 opacity-70"
-            />
-          </div>
-          <div class="flex items-center gap-x-2 mt-10 text-sky-700">
-            <img
-              src="assets/git.png"
-              alt="Github"
-              title="Github"
-              class="h-5 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-            />
-            <a
-              href="https://github.com/JayMarPabayo/tagoloanpublicmarketstall.git"
-              target="_blank"
-              class="underline"
-              >https://github.com/JayMarPabayo/tagoloanpublicmarketstall.git</a
-            >
-          </div>
-          <div class="flex items-center gap-x-2 mt-2 text-sky-700">
-            <img
-              src="assets/git.png"
-              alt="Github"
-              title="Github"
-              class="h-5 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-            />
-            <a
-              href="https://github.com/JayMarPabayo/tagoloan-public-market-stall-fms-api.git"
-              target="_blank"
-              class="underline"
-              >https://github.com/JayMarPabayo/tagoloan-public-market-stall-fms-api.git</a
-            >
-          </div>
-        </article>
-      </div>
-
-      <div class="bg-white/80 rounded-md p-2 mt-4 flex gap-x-2">
-        <!-- <img src="assets/fidms/services.jpg" class="w-[36rem]" /> -->
-        <video autoplay loop muted playsinline class="w-[36rem] object-cover">
-          <source src="assets/videos/hris.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <article>
-          <h3 class="font-semibold">
-            Cafe Leone Restaurant Employee Management System
-          </h3>
-          <p class="text-sm mt-2 text-slate-600">
-            This laravel application I created in 2024 is designed to streamline
-            the management of employee schedules and leave requests in a
-            restaurant setting. It allows employees to request schedule
-            exchanges with their colleagues and submit leave requests directly
-            through the platform. Admins have access to a dedicated portal where
-            they can efficiently review, approve, or reject both schedule
-            exchanges and leave submissions, ensuring smooth operations and
-            improved communication within the workplace.
-          </p>
-          <div class="mt-2 flex items-end gap-x-4">
-            <img
-              src="assets/laravel.png"
-              alt="Laravel"
-              title="Laravel"
-              class="h-8 opacity-80"
-            />
-            <img
-              src="assets/php.png"
-              alt="Php"
-              title="Php"
-              class="h-8 opacity-70"
-            />
-            <img
-              src="assets/mysql.png"
-              alt="MySQL"
-              title="MySQL"
-              class="h-10 opacity-70"
-            />
-            <img
-              src="assets/tailwind.png"
-              alt="Tailwind CSS"
-              title="Tailwind CSS"
-              class="h-5 opacity-70"
-            />
-          </div>
-          <div class="flex items-center gap-x-2 mt-10 text-sky-700">
-            <img
-              src="assets/git.png"
-              alt="Github"
-              title="Github"
-              class="h-5 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-            />
-            <a
-              href="https://github.com/JayMarPabayo/hris-app.git"
-              target="_blank"
-              class="underline"
-              >https://github.com/JayMarPabayo/hris-app.git</a
-            >
-          </div>
-        </article>
-      </div>
-
-      <div class="bg-white/80 rounded-md p-2 mt-4 flex gap-x-2">
-        <!-- <img src="assets/fidms/services.jpg" class="w-[36rem]" /> -->
-        <video autoplay loop muted playsinline class="w-[36rem] object-cover">
-          <source src="assets/videos/fidms.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <article>
-          <h3 class="font-semibold">
-            Financial Assistance Document Management System
-          </h3>
-          <p class="text-sm mt-2 text-slate-600">
-            I also developed this project in 2024 as part of the client's thesis
-            project. It is designed to streamline the application process for
-            various types of assistance, including Burial Assistance, Medical
-            Billing Assistance, and more. The platform allows users to submit
-            required documents online and receive updates via email. Authorized
-            staff members can securely review and verify applications, ensuring
-            that all submitted documents meet the necessary requirements.
-          </p>
-          <div class="mt-2 flex items-end gap-x-4">
-            <img
-              src="assets/laravel.png"
-              alt="Laravel"
-              title="Laravel"
-              class="h-8 opacity-80"
-            />
-            <img
-              src="assets/php.png"
-              alt="Php"
-              title="Php"
-              class="h-8 opacity-70"
-            />
-            <img
-              src="assets/mysql.png"
-              alt="MySQL"
-              title="MySQL"
-              class="h-10 opacity-70"
-            />
-            <img
-              src="assets/tailwind.png"
-              alt="Tailwind CSS"
-              title="Tailwind CSS"
-              class="h-5 opacity-70"
-            />
-          </div>
-          <div class="flex items-center gap-x-2 mt-10 text-sky-700">
-            <img
-              src="assets/git.png"
-              alt="Github"
-              title="Github"
-              class="h-5 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-            />
-            <a
-              href="https://github.com/JayMarPabayo/financial-assistance-dms"
-              target="_blank"
-              class="underline"
-              >https://github.com/JayMarPabayo/financial-assistance-dms</a
-            >
-          </div>
-        </article>
-      </div>
-
-      <div class="bg-white/80 rounded-md p-2 mt-4 flex gap-x-2">
-        <a
-          href="https://michaelho-esc.com/"
-          target="_blank"
-          class="w-[36rem] shrink-0 block group overflow-hidden rounded-sm cursor-pointer relative"
-        >
-          <img
-            src="assets/michaelho.png"
-            alt="Michael Ho Events Website"
-            class="w-full h-full object-cover group-hover:scale-105 group-hover:opacity-90 duration-500"
-          />
-          <div
-            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 bg-black/30 text-white font-bold tracking-widest"
-          >
-            VISIT LIVE SITE ↗
-          </div>
-        </a>
-
-        <article>
-          <h3 class="font-semibold">
-            Michael Ho Events - Styling & Coordination
-          </h3>
-          <p class="text-sm mt-2 text-slate-600">
-            I developed this dynamic web application in 2025 as a client thesis
-            project for a professional event coordinator. The platform serves as
-            both a portfolio showcasing event packages (Weddings, Debuts, Kiddie
-            Parties) and a management system.
-            <br /><br />
-            A key feature I implemented is the
-            <strong>automated notification system</strong>, which sends
-            real-time updates via <strong>SMS and Email</strong> to both the
-            client and the owner whenever an event status changes, ensuring
-            seamless communication and coordination.
-          </p>
-
-          <div class="mt-2 flex items-end gap-x-4">
-            <img
-              src="assets/laravel.png"
-              alt="Laravel"
-              title="Laravel"
-              class="h-8 opacity-80"
-            />
-            <img
-              src="assets/php.png"
-              alt="Php"
-              title="Php"
-              class="h-8 opacity-70"
-            />
-            <img
-              src="assets/mysql.png"
-              alt="MySQL"
-              title="MySQL"
-              class="h-10 opacity-70"
-            />
-            <img
-              src="assets/tailwind.png"
-              alt="Tailwind CSS"
-              title="Tailwind CSS"
-              class="h-5 opacity-70"
-            />
-          </div>
-
-          <div class="flex items-center gap-x-2 mt-10 text-sky-700">
-            <img
-              src="assets/web.png"
-              alt="Web Link"
-              title="Web Link"
-              class="h-5 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-            />
+      <!-- Projects List -->
+      <section>
+        <!-- Michael Ho Events -->
+        <div class="project-video-card reveal">
+          <div class="project-video-grid">
             <a
               href="https://michaelho-esc.com/"
               target="_blank"
-              class="underline"
-              >https://michaelho-esc.com/</a
+              style="display: block; overflow: hidden; border-radius: 6px"
             >
+              <img
+                src="assets/michaelho.png"
+                alt="Michael Ho Events"
+                class="project-image"
+                style="transition: transform 0.5s ease"
+                onmouseover="this.style.transform = 'scale(1.03)'"
+                onmouseout="this.style.transform = 'scale(1)'"
+              />
+            </a>
+            <div>
+              <span class="project-year">2025</span>
+              <h3 class="project-title" style="margin-top: 4px">
+                Michael Ho Events
+              </h3>
+              <p class="project-subtitle">
+                Styling &amp; Coordination Platform
+              </p>
+              <p class="project-desc">
+                Dynamic web app for a professional event coordinator — portfolio
+                showcasing event packages (Weddings, Debuts, Kiddie Parties) and
+                a management system with automated SMS &amp; Email notifications
+                for real-time status updates.
+              </p>
+              <div class="pill-row project-stack">
+                <span class="pill">Laravel</span>
+                <span class="pill">PHP</span>
+                <span class="pill">MySQL</span>
+                <span class="pill">Tailwind</span>
+              </div>
+              <a
+                href="https://michaelho-esc.com/"
+                target="_blank"
+                class="project-link"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path
+                    d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"
+                  />
+                </svg>
+                Live Site ↗
+              </a>
+            </div>
           </div>
-        </article>
-      </div>
+        </div>
 
-      <div class="bg-white/80 rounded-md p-2 mt-4 flex gap-x-2">
-        <a
-          href="https://www.jeffreydentallab.com/"
-          target="_blank"
-          class="w-[36rem] shrink-0 block group overflow-hidden rounded-sm cursor-pointer relative"
-        >
-          <img
-            src="assets/dental.png"
-            alt="Jeffrey Dental Lab Website"
-            class="w-full h-full object-cover group-hover:scale-105 group-hover:opacity-90 duration-500"
-          />
-          <div
-            class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 duration-300 bg-black/30 text-white font-bold tracking-widest"
-          >
-            VISIT LIVE SITE ↗
-          </div>
-        </a>
-
-        <article>
-          <h3 class="font-semibold">Jeffrey Dental Lab Management System</h3>
-          <p class="text-sm mt-2 text-slate-600">
-            I developed this comprehensive web application to streamline
-            operations for a dental laboratory. The system centers on efficient
-            <strong>Case Management</strong>, tracking dental orders from start
-            to finish. It features a seamless
-            <strong>Appointment Scheduling</strong> module for organizing
-            pickups, deliveries, and consultations. <br /><br />
-            Additionally, I integrated
-            <strong>Real-time Delivery Tracking</strong>, allowing the business
-            to monitor dedicated riders and logistics to ensure timely service
-            for their clients.
-          </p>
-
-          <div class="mt-2 flex items-end gap-x-4">
-            <img
-              src="assets/laravel.png"
-              alt="Laravel"
-              title="Laravel"
-              class="h-8 opacity-80"
-            />
-            <img
-              src="assets/php.png"
-              alt="Php"
-              title="Php"
-              class="h-8 opacity-70"
-            />
-            <img
-              src="assets/mysql.png"
-              alt="MySQL"
-              title="MySQL"
-              class="h-10 opacity-70"
-            />
-            <img
-              src="assets/tailwind.png"
-              alt="Tailwind CSS"
-              title="Tailwind CSS"
-              class="h-5 opacity-70"
-            />
-          </div>
-
-          <div class="flex items-center gap-x-2 mt-10 text-sky-700">
-            <img
-              src="assets/web.png"
-              alt="Web Link"
-              title="Web Link"
-              class="h-5 opacity-80 hover:scale-105 active:scale-95 hover:opacity-90 duration-300"
-            />
+        <!-- Jeffrey Dental Lab -->
+        <div class="project-video-card reveal reveal-d1">
+          <div class="project-video-grid">
             <a
               href="https://www.jeffreydentallab.com/"
               target="_blank"
-              class="underline"
-              >https://www.jeffreydentallab.com/</a
+              style="display: block; overflow: hidden; border-radius: 6px"
             >
+              <img
+                src="assets/dental.png"
+                alt="Jeffrey Dental Lab"
+                class="project-image"
+                style="transition: transform 0.5s ease"
+                onmouseover="this.style.transform = 'scale(1.03)'"
+                onmouseout="this.style.transform = 'scale(1)'"
+              />
+            </a>
+            <div>
+              <span class="project-year">2025</span>
+              <h3 class="project-title" style="margin-top: 4px">
+                Jeffrey Dental Lab
+              </h3>
+              <p class="project-subtitle">Management System</p>
+              <p class="project-desc">
+                Comprehensive dental laboratory operations platform — case
+                management from start to finish, appointment scheduling, and
+                real-time delivery tracking with dedicated rider logistics.
+              </p>
+              <div class="pill-row project-stack">
+                <span class="pill">Laravel</span>
+                <span class="pill">PHP</span>
+                <span class="pill">MySQL</span>
+                <span class="pill">Tailwind</span>
+              </div>
+              <a
+                href="https://www.jeffreydentallab.com/"
+                target="_blank"
+                class="project-link"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path
+                    d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"
+                  />
+                </svg>
+                Live Site ↗
+              </a>
+            </div>
           </div>
-        </article>
-      </div>
-    </main>
+        </div>
+
+        <!-- Wādoru -->
+        <div class="project-video-card reveal">
+          <div class="project-video-grid">
+            <video autoplay loop muted playsinline class="project-video">
+              <source src="assets/videos/wadoru.mp4" type="video/mp4" />
+            </video>
+            <div>
+              <span class="project-year">2023</span>
+              <h3 class="project-title" style="margin-top: 4px">Wādoru</h3>
+              <p class="project-subtitle">Anime Guessing Game</p>
+              <p class="project-desc">
+                React-based anime guessing game inspired by NBA Poeltl. Fetches
+                titles from the MyAnimeList API with Framer Motion animations
+                and Firebase backend ensuring global synchronization.
+              </p>
+              <div class="pill-row project-stack">
+                <span class="pill">React</span>
+                <span class="pill">Firebase</span>
+                <span class="pill">Framer Motion</span>
+                <span class="pill">Tailwind</span>
+              </div>
+              <a
+                href="https://anime-wadoru.web.app"
+                target="_blank"
+                class="project-link"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                >
+                  <circle cx="12" cy="12" r="10" />
+                  <path
+                    d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"
+                  />
+                </svg>
+                Play ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Public Market -->
+        <div class="project-video-card reveal reveal-d1">
+          <div class="project-video-grid">
+            <video autoplay loop muted playsinline class="project-video">
+              <source src="assets/videos/pms.mp4" type="video/mp4" />
+            </video>
+            <div>
+              <span class="project-year">2024</span>
+              <h3 class="project-title" style="margin-top: 4px">
+                Public Market Stall Renting
+              </h3>
+              <p class="project-subtitle">Full-Stack MERN Application</p>
+              <p class="project-desc">
+                Streamlined stall, vendor, and rental payment management for a
+                local public market. Includes a React Native companion app for
+                on-site payment collection with mobile receipt printing.
+              </p>
+              <div class="pill-row project-stack">
+                <span class="pill">React</span>
+                <span class="pill">MongoDB</span>
+                <span class="pill">Express</span>
+                <span class="pill">Node.js</span>
+                <span class="pill">Tailwind</span>
+              </div>
+              <a
+                href="https://github.com/JayMarPabayo/tagoloanpublicmarketstall"
+                target="_blank"
+                class="project-link"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                  />
+                </svg>
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cafe Leone HRIS -->
+        <div class="project-video-card reveal">
+          <div class="project-video-grid">
+            <video autoplay loop muted playsinline class="project-video">
+              <source src="assets/videos/hris.mp4" type="video/mp4" />
+            </video>
+            <div>
+              <span class="project-year">2024</span>
+              <h3 class="project-title" style="margin-top: 4px">
+                Cafe Leone HRIS
+              </h3>
+              <p class="project-subtitle">Employee Management System</p>
+              <p class="project-desc">
+                Laravel application for managing employee schedules and leave
+                requests in a restaurant. Features schedule exchange requests
+                between colleagues and an admin portal for approvals.
+              </p>
+              <div class="pill-row project-stack">
+                <span class="pill">Laravel</span>
+                <span class="pill">PHP</span>
+                <span class="pill">MySQL</span>
+                <span class="pill">Tailwind</span>
+              </div>
+              <a
+                href="https://github.com/JayMarPabayo/hris-app"
+                target="_blank"
+                class="project-link"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                  />
+                </svg>
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- FIDMS -->
+        <div class="project-video-card reveal reveal-d1">
+          <div class="project-video-grid">
+            <video autoplay loop muted playsinline class="project-video">
+              <source src="assets/videos/fidms.mp4" type="video/mp4" />
+            </video>
+            <div>
+              <span class="project-year">2024</span>
+              <h3 class="project-title" style="margin-top: 4px">
+                Financial Assistance DMS
+              </h3>
+              <p class="project-subtitle">Document Management System</p>
+              <p class="project-desc">
+                Streamlined application process for various assistance types —
+                burial, medical billing, and more. Online document submission
+                with email updates and staff verification portal.
+              </p>
+              <div class="pill-row project-stack">
+                <span class="pill">Laravel</span>
+                <span class="pill">PHP</span>
+                <span class="pill">MySQL</span>
+                <span class="pill">Tailwind</span>
+              </div>
+              <a
+                href="https://github.com/JayMarPabayo/financial-assistance-dms"
+                target="_blank"
+                class="project-link"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                >
+                  <path
+                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"
+                  />
+                </svg>
+                GitHub ↗
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div style="height: 80px"></div>
+
+      <!-- Footer -->
+      <footer class="site-footer reveal">
+        <span class="logo" style="font-size: 18px; color: rgba(0, 0, 0, 0.2)"
+          >Jay
+          <span class="accent" style="color: rgba(13, 148, 136, 0.3)">M</span
+          >.</span
+        >
+        <span class="footer-copy">&copy; 2025</span>
+      </footer>
+    </div>
+
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.08 },
+      );
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>

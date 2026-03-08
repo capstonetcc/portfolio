@@ -1,148 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="assets/user.png" type="image/x-icon" />
-    <title>▪ PORTFOLIO ▪</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="styles\styles.css" />
+    <title>Jay M. — Developer</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
-  <body class="bg-opal text-slate-900 gowun-dodum-regular">
-    <header class="flex justify-between px-20 py-10">
-      <h1 class="volkhov-bold text-5xl">
-        JAY <span class="text-white">M</span>.
-      </h1>
-      <ul class="flex gap-x-4">
-        <li class="racking-wider font-bold cursor-pointer">
-          <a href="index.html">HELLO</a>
-        </li>
-        <li
-          class="hover:tracking-wider hover:font-bold duration-300 cursor-pointer"
-        >
-          <a href="projects.html">PROJECTS</a>
-        </li>
-        <li
-          class="hover:tracking-wider hover:font-bold duration-300 cursor-pointer"
-        >
-          <a href="contact.html">CONTACT</a>
-        </li>
-      </ul>
-    </header>
-    <main class="px-20 mt-10">
-      <h1 class="text-6xl">
-        <span class="dela-gothic-one-regular">&lt; / &gt;</span>
-        WEB DEVELOPER
-        <span class="text-slate-500">/</span>
-        <span class="text-teal-600">
-          <span class="dela-gothic-one-regular font-semibold text-7xl">⌨</span>
-          DATA ENCODER</span
-        >
-      </h1>
+  <body>
+    <div class="site-wrapper">
+      <!-- Header -->
+      <header class="site-header">
+        <a href="index.html" class="logo">Jay <span class="accent">M</span>.</a>
+        <nav>
+          <ul class="site-nav">
+            <li><a href="index.html" class="active">Hello</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
-      <section class="mt-10 text-2xl">
-        <p>
-          Hello! I'm <strong>Jay</strong>. I'm currently a SAP admin and
-          freelance full-stack web developer.
+      <!-- Hero -->
+      <section class="hero">
+        <div class="reveal">
+          <span class="label-teal">Full-Stack Developer &amp; SAP Admin</span>
+        </div>
+
+        <h1 class="hero-heading reveal reveal-d1">
+          Building digital<br />
+          products that <em>work</em>.
+        </h1>
+
+        <p class="hero-sub reveal reveal-d2">
+          I'm Jay — a Filipino developer and SAP admin crafting web applications
+          with Laravel, React, and the MERN stack. I turn complex business logic
+          into clean, functional software.
         </p>
       </section>
 
-      <section class="mt-28 text-xl text-slate-900/80">
-        <h3>Tech Stack / Tools</h3>
-
-        <div class="flex items-end gap-x-4 mt-4">
-          <img
-            src="assets/mongodb.png"
-            alt="Mongo DB"
-            title="Mongo DB"
-            class="h-10 opacity-80"
-          />
-          <img
-            src="assets/express-js.png"
-            alt="Express JS"
-            title="Express JS"
-            class="h-6 opacity-90"
-          />
-          <img
-            src="assets/react.png"
-            alt="React JS"
-            title="React JS"
-            class="h-7 opacity-80"
-          />
-          <img
-            src="assets/node-js.png"
-            alt="Node JS"
-            title="Node JS"
-            class="h-7 opacity-80"
-          />
-          <img
-            src="assets/laravel.png"
-            alt="Laravel"
-            title="Laravel"
-            class="h-8 opacity-80"
-          />
-          <img
-            src="assets/php.png"
-            alt="Php"
-            title="Php"
-            class="h-8 opacity-70"
-          />
-          <img
-            src="assets/mysql.png"
-            alt="MySQL"
-            title="MySQL"
-            class="h-10 opacity-70"
-          />
-          <img
-            src="assets/tailwind.png"
-            alt="Tailwind CSS"
-            title="Tailwind CSS"
-            class="h-5 opacity-70"
-          />
+      <!-- Tech Stack -->
+      <section class="tech-section reveal reveal-d3">
+        <p class="label">Technologies</p>
+        <div class="pill-row" style="margin-top: 14px">
+          <span class="pill">React</span>
+          <span class="pill">Tailwind CSS</span>
+          <span class="pill">Laravel</span>
+          <span class="pill">PHP</span>
+          <span class="pill">Node.js</span>
+          <span class="pill">Express</span>
+          <span class="pill">MongoDB</span>
+          <span class="pill">MySQL</span>
+          <span class="pill">Firebase</span>
         </div>
-
-        <div class="flex items-end gap-x-8 mt-4">
-          <img
-            src="assets/sap-erp.png"
-            alt="SAP ERP"
-            title="SAP ERP"
-            class="h-10 opacity-90"
-          />
-          <img
-            src="assets/office.png"
-            alt="Microsoft Office"
-            title="Microsoft Office"
-            class="h-9 opacity-90"
-          />
-          <img
-            src="assets/g-suite.png"
-            alt="Google Suit"
-            title="Google Suit"
-            class="h-7 opacity-90"
-          />
-        </div>
-
-        <div class="flex items-end gap-x-8 mt-4">
-          <img
-            src="assets/photoshop.png"
-            alt="Adobe Photoshop"
-            title="Adobe Photoshop"
-            class="h-10 ms-1 opacity-80"
-          />
-          <img
-            src="assets/figma.png"
-            alt="Figma"
-            title="Figma"
-            class="h-10 opacity-90"
-          />
-          <img
-            src="assets/capcut.png"
-            alt="Capcut"
-            title="Capcut"
-            class="h-10 opacity-70"
-          />
+        <div class="pill-row" style="margin-top: 8px">
+          <span class="pill">SAP ERP</span>
+          <span class="pill">Figma</span>
+          <span class="pill">Photoshop</span>
+          <span class="pill">Git</span>
+          <span class="pill">Microsoft Office</span>
+          <span class="pill">Google Suite</span>
+          <span class="pill">CapCut</span>
         </div>
       </section>
-    </main>
+
+      <div style="height: 120px"></div>
+
+      <!-- Footer -->
+      <footer class="site-footer reveal reveal-d4">
+        <span class="logo" style="font-size: 18px; color: rgba(0, 0, 0, 0.2)"
+          >Jay
+          <span class="accent" style="color: rgba(13, 148, 136, 0.3)">M</span
+          >.</span
+        >
+        <span class="footer-copy">&copy; 2025</span>
+      </footer>
+    </div>
+
+    <script>
+      // Intersection Observer for scroll reveals
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      document
+        .querySelectorAll(".reveal")
+        .forEach((el) => observer.observe(el));
+    </script>
   </body>
 </html>
